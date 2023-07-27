@@ -19,7 +19,15 @@ struct CustomPage: Identifiable {
     var ImageUrl: String
     var tag: Int
     
-    static var samplePage = Page(name: )
+    static var samplePage = CustomPage(name: "hello", description: "hello", ImageUrl: "", tag: 0)
+    
+    static var samplePages: [CustomPage] = [
+        CustomPage(name: "hi", description: "hi", ImageUrl: "", tag: 0),
+        CustomPage(name: "hi", description: "hi", ImageUrl: "", tag: 1),
+        CustomPage(name: "hi", description: "hi", ImageUrl: "", tag: 2),
+        CustomPage(name: "hi", description: "hi", ImageUrl: "", tag: 3),
+    
+    ]
 }
 
 
