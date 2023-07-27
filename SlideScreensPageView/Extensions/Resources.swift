@@ -12,7 +12,7 @@ enum Resources {}
 extension Resources {
     
     enum System: String, AssetConvertable {
-        case main
+        case idea, mac, coctail, men
         
     }
     
