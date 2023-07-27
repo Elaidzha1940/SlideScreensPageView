@@ -71,12 +71,12 @@
 				E4FD98DA2A72DA2A009165E8 /* Auxiliary */,
 				E4FD98E02A72DAFA009165E8 /* Extensions */,
 				E4FD98E72A72DBAB009165E8 /* Resources */,
+				E4FD98F02A72DC56009165E8 /* Ui */,
 				E4FD98C92A72D742009165E8 /* SlideScreensPageViewApp.swift */,
 				E4FD98CB2A72D742009165E8 /* ContentView.swift */,
 				E4FD98CD2A72D743009165E8 /* Assets.xcassets */,
 				E4FD98CF2A72D743009165E8 /* SlideScreensPageView.entitlements */,
 				E4FD98D02A72D743009165E8 /* Preview Content */,
-				E4FD98D82A72D8A8009165E8 /* CustomPageModel.swift */,
 			);
 			path = SlideScreensPageView;
 			sourceTree = "<group>";
@@ -120,6 +120,7 @@
 			isa = PBXGroup;
 			children = (
 				E4FD98EA2A72DBD6009165E8 /* Assets */,
+				E4FD98EF2A72DC3A009165E8 /* Fonts */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -131,6 +132,29 @@
 				E4FD98ED2A72DC02009165E8 /* Colors.xcassets */,
 			);
 			path = Assets;
+			sourceTree = "<group>";
+		};
+		E4FD98EF2A72DC3A009165E8 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		E4FD98F02A72DC56009165E8 /* Ui */ = {
+			isa = PBXGroup;
+			children = (
+				E4FD98F12A72DC69009165E8 /* Views */,
+			);
+			path = Ui;
+			sourceTree = "<group>";
+		};
+		E4FD98F12A72DC69009165E8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E4FD98D82A72D8A8009165E8 /* CustomPageModel.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
