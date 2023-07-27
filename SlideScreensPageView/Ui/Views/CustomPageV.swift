@@ -24,6 +24,14 @@ struct CustomPageV: View {
                 .padding()
                 .cornerRadius(10)
                 .background(.gray)
+            
+            Text(page.name)
+                .font(.title)
+            
+            Text(page.description)
+                .font(.subheadline)
+                .frame(width: 300)
+            
         }
     }
 }

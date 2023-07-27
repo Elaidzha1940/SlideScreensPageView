@@ -11,7 +11,7 @@
 
 import Foundation
 
-struct CustomPage: Identifiable {
+struct CustomPage: Identifiable, Equatable {
     
     let id = UUID()
     var name: String

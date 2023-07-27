@@ -12,17 +12,42 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @State private var pageIndex = 0
+    private let pages: [CustomPage] = CustomPage.samplePages
+    private let dotAppearance = UIPageControl.appearance()
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        
+        
+        TabView(selection: $pageIndex) {
+            ForEach(pages) { page in
+                VStack {
+                    
+                    Spacer()
+                    CustomPageV(page: page)
+                    Spacer()
+                    
+                    if page == pages.last {
+                        Button("Button", action: goToZero)
+                            .buttonStyle(.bordered)
+                    } else {
+                        Button()
+                    }
+                        
+                }
+                .tag(page.tag)
+            }
+            
         }
-        .padding()
+    }
+    func incrementPage() {
+        pageIndex += 1
+    }
+    func goToZero() {
+        pageIndex = 0
     }
 }
-
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
