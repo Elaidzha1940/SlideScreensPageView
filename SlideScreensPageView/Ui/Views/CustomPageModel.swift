@@ -26,7 +26,7 @@ struct CustomPage: Identifiable {
         CustomPage(name: "hi", description: "hi", ImageUrl: "", tag: 1),
         CustomPage(name: "hi", description: "hi", ImageUrl: "", tag: 2),
         CustomPage(name: "hi", description: "hi", ImageUrl: "", tag: 3),
-    
+        
     ]
 }
 
