@@ -11,6 +11,7 @@
 		E4FD98CC2A72D742009165E8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4FD98CB2A72D742009165E8 /* ContentView.swift */; };
 		E4FD98CE2A72D743009165E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4FD98CD2A72D743009165E8 /* Assets.xcassets */; };
 		E4FD98D22A72D743009165E8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4FD98D12A72D743009165E8 /* Preview Assets.xcassets */; };
+		E4FD98D92A72D8A8009165E8 /* CustomPageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4FD98D82A72D8A8009165E8 /* CustomPageModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		E4FD98CD2A72D743009165E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E4FD98CF2A72D743009165E8 /* SlideScreensPageView.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SlideScreensPageView.entitlements; sourceTree = "<group>"; };
 		E4FD98D12A72D743009165E8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E4FD98D82A72D8A8009165E8 /* CustomPageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPageModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				E4FD98CD2A72D743009165E8 /* Assets.xcassets */,
 				E4FD98CF2A72D743009165E8 /* SlideScreensPageView.entitlements */,
 				E4FD98D02A72D743009165E8 /* Preview Content */,
+				E4FD98D82A72D8A8009165E8 /* CustomPageModel.swift */,
 			);
 			path = SlideScreensPageView;
 			sourceTree = "<group>";
@@ -141,6 +144,7 @@
 			files = (
 				E4FD98CC2A72D742009165E8 /* ContentView.swift in Sources */,
 				E4FD98CA2A72D742009165E8 /* SlideScreensPageViewApp.swift in Sources */,
+				E4FD98D92A72D8A8009165E8 /* CustomPageModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
