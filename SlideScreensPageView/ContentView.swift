@@ -43,6 +43,7 @@ struct ContentView: View {
         .indexViewStyle(.page(backgroundDisplayMode: .interactive))
         .onAppear {
             dotAppearance.currentPageIndicatorTintColor = .blue
+            dotAppearance.pageIndicatorTintColor = .green
         }
     }
     
