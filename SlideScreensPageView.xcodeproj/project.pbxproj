@@ -12,6 +12,8 @@
 		E4FD98CE2A72D743009165E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4FD98CD2A72D743009165E8 /* Assets.xcassets */; };
 		E4FD98D22A72D743009165E8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4FD98D12A72D743009165E8 /* Preview Assets.xcassets */; };
 		E4FD98D92A72D8A8009165E8 /* CustomPageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4FD98D82A72D8A8009165E8 /* CustomPageModel.swift */; };
+		E4FD98DD2A72DA5F009165E8 /* AssetConvertable.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4FD98DC2A72DA5F009165E8 /* AssetConvertable.swift */; };
+		E4FD98DF2A72DA7A009165E8 /* AssetColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4FD98DE2A72DA7A009165E8 /* AssetColor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		E4FD98CF2A72D743009165E8 /* SlideScreensPageView.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SlideScreensPageView.entitlements; sourceTree = "<group>"; };
 		E4FD98D12A72D743009165E8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E4FD98D82A72D8A8009165E8 /* CustomPageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPageModel.swift; sourceTree = "<group>"; };
+		E4FD98DC2A72DA5F009165E8 /* AssetConvertable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssetConvertable.swift; sourceTree = "<group>"; };
+		E4FD98DE2A72DA7A009165E8 /* AssetColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssetColor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,7 @@
 		E4FD98C82A72D742009165E8 /* SlideScreensPageView */ = {
 			isa = PBXGroup;
 			children = (
+				E4FD98DA2A72DA2A009165E8 /* Auxiliary */,
 				E4FD98C92A72D742009165E8 /* SlideScreensPageViewApp.swift */,
 				E4FD98CB2A72D742009165E8 /* ContentView.swift */,
 				E4FD98CD2A72D743009165E8 /* Assets.xcassets */,
@@ -70,6 +75,23 @@
 				E4FD98D12A72D743009165E8 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E4FD98DA2A72DA2A009165E8 /* Auxiliary */ = {
+			isa = PBXGroup;
+			children = (
+				E4FD98DB2A72DA48009165E8 /* Protocols */,
+			);
+			path = Auxiliary;
+			sourceTree = "<group>";
+		};
+		E4FD98DB2A72DA48009165E8 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				E4FD98DC2A72DA5F009165E8 /* AssetConvertable.swift */,
+				E4FD98DE2A72DA7A009165E8 /* AssetColor.swift */,
+			);
+			path = Protocols;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -142,8 +164,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E4FD98DF2A72DA7A009165E8 /* AssetColor.swift in Sources */,
 				E4FD98CC2A72D742009165E8 /* ContentView.swift in Sources */,
 				E4FD98CA2A72D742009165E8 /* SlideScreensPageViewApp.swift in Sources */,
+				E4FD98DD2A72DA5F009165E8 /* AssetConvertable.swift in Sources */,
 				E4FD98D92A72D8A8009165E8 /* CustomPageModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

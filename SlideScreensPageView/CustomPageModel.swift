@@ -17,6 +17,9 @@ struct CustomPage: Identifiable {
     var name: String
     var description: String
     var ImageUrl: String
+    var tag: Int
+    
+    static var samplePage = Page(name: )
 }
 
 
