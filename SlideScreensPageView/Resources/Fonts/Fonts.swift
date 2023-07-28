@@ -12,7 +12,7 @@
 import SwiftUI
 
 struct Fonts {
-    struct Modak {
-        static let regular = "Modak-Regular"
+    struct Chango {
+        static let regular = "Chango-Regular"
     }
 }

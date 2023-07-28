@@ -23,8 +23,7 @@ struct CustomPageV: View {
                 VStack(spacing: 20) {
                     
                     Text("Listenoryx")
-                        .font(.title3)
-                        .bold()
+                        .font(.custom("Chango-Regular", size: 40))
                         .foregroundColor(Color(toText: .five))
                     
                     Image("\(page.ImageUrl)")
