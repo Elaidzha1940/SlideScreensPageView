@@ -23,7 +23,7 @@ struct CustomPageV: View {
                 
                 VStack(spacing: 30) {
                     Text("Listenoryx")
-                        .font(.custom(Fonts.RobotoMono.bold, size: 30))
+                        .font(.custom(Fonts.Andika.bold, size: 30))
                         .fontWeight(.thin)
                         .foregroundColor(Color(toText: .five))
                     
@@ -34,13 +34,11 @@ struct CustomPageV: View {
                         .padding()
                     
                     Text(page.name)
-                        .font(.custom(Fonts.RobotoMono.bold, size: 30))
-                        //.bold()
-                        //.font(.title3)
+                        .bold()
+                        .font(.title3)
                         .foregroundColor(Color(toText: .one))
                     
                     Text(page.description)
-//                        .font(.custom(Fonts.Chango.regular, size: 30))
                         .frame(width: 300)
                         .multilineTextAlignment(.center)
                         .foregroundColor(Color(toText: .one))

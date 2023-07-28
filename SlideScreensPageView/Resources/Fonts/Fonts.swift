@@ -12,7 +12,7 @@
 import SwiftUI
 
 struct Fonts {
-    struct RobotoMono {
-        static let bold = "RobotoMono-Bold"
+    struct Andika {
+        static let bold = "Andika-Bold"
     }
 }
