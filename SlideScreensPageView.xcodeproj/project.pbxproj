@@ -20,6 +20,8 @@
 		E4FD98EC2A72DBF4009165E8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4FD98EB2A72DBF4009165E8 /* Images.xcassets */; };
 		E4FD98EE2A72DC02009165E8 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4FD98ED2A72DC02009165E8 /* Colors.xcassets */; };
 		E4FD98F32A72DED5009165E8 /* CustomPageV.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4FD98F22A72DED5009165E8 /* CustomPageV.swift */; };
+		E4FD98F72A742766009165E8 /* Modak in Resources */ = {isa = PBXBuildFile; fileRef = E4FD98F62A742766009165E8 /* Modak */; };
+		E4FD98F92A74276E009165E8 /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4FD98F82A74276E009165E8 /* Fonts.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +40,8 @@
 		E4FD98EB2A72DBF4009165E8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		E4FD98ED2A72DC02009165E8 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
 		E4FD98F22A72DED5009165E8 /* CustomPageV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPageV.swift; sourceTree = "<group>"; };
+		E4FD98F62A742766009165E8 /* Modak */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Modak; sourceTree = "<group>"; };
+		E4FD98F82A74276E009165E8 /* Fonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fonts.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,6 +143,8 @@
 		E4FD98EF2A72DC3A009165E8 /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
+				E4FD98F62A742766009165E8 /* Modak */,
+				E4FD98F82A74276E009165E8 /* Fonts.swift */,
 			);
 			path = Fonts;
 			sourceTree = "<group>";
@@ -221,6 +227,7 @@
 				E4FD98EC2A72DBF4009165E8 /* Images.xcassets in Resources */,
 				E4FD98EE2A72DC02009165E8 /* Colors.xcassets in Resources */,
 				E4FD98D22A72D743009165E8 /* Preview Assets.xcassets in Resources */,
+				E4FD98F72A742766009165E8 /* Modak in Resources */,
 				E4FD98CE2A72D743009165E8 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -238,6 +245,7 @@
 				E4FD98E42A72DB35009165E8 /* Text.swift in Sources */,
 				E4FD98E22A72DB10009165E8 /* Resources.swift in Sources */,
 				E4FD98E62A72DB4B009165E8 /* Color.swift in Sources */,
+				E4FD98F92A74276E009165E8 /* Fonts.swift in Sources */,
 				E4FD98DD2A72DA5F009165E8 /* AssetConvertable.swift in Sources */,
 				E4FD98D92A72D8A8009165E8 /* CustomPageModel.swift in Sources */,
 				E4FD98F32A72DED5009165E8 /* CustomPageV.swift in Sources */,

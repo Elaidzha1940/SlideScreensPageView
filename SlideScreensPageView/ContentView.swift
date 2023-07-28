@@ -58,7 +58,6 @@ struct ContentView: View {
                     dotAppearance.currentPageIndicatorTintColor = .white
                     dotAppearance.pageIndicatorTintColor = .black
                 }
-                
             }
         }
         .ignoresSafeArea()

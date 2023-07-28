@@ -42,6 +42,7 @@ struct CustomPageV: View {
                         .font(.subheadline)
                         .frame(width: 300)
                         .multilineTextAlignment(.center)
+                        .foregroundColor(Color(toText: .one))
                 }
             }
         }
