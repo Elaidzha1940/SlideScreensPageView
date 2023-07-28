@@ -34,11 +34,14 @@ struct CustomPageV: View {
                         .padding()
                     
                     Text(page.name)
-                        .font(.title)
+                        .bold()
+                        .font(.title3)
+                        .foregroundColor(Color(toText: .one))
                     
                     Text(page.description)
                         .font(.subheadline)
                         .frame(width: 300)
+                        .multilineTextAlignment(.center)
                 }
             }
         }
