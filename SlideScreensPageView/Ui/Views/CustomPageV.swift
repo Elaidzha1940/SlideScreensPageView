@@ -18,12 +18,19 @@ struct CustomPageV: View {
     var body: some View {
         
         VStack(spacing: 20) {
+            
+            Text("Listenoryx")
+                .font(.title3)
+                .bold()
+                .foregroundColor(Color(toText: .five))
+            
             Image("\(page.ImageUrl)")
                 .resizable()
                 .scaledToFit()
                 .padding()
-                .cornerRadius(10)
-                .background(.gray)
+                .cornerRadius(30)
+                .foregroundColor(Color(toElement: .six))
+
             
             Text(page.name)
                 .font(.title)
@@ -31,7 +38,6 @@ struct CustomPageV: View {
             Text(page.description)
                 .font(.subheadline)
                 .frame(width: 300)
-            
         }
     }
 }

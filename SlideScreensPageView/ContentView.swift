@@ -20,6 +20,8 @@ struct ContentView: View {
     var body: some View {
         
         TabView(selection: $pageIndex) {
+            
+            Text("sss")
             ForEach(pages) { page in
                 VStack {
                     
@@ -31,7 +33,10 @@ struct ContentView: View {
                         Button("Button", action: goToZero)
                             .buttonStyle(.bordered)
                     } else {
-                        Button("next", action: incrementPage)
+                        Button("Next", action: incrementPage)
+                            .bold()
+                            .foregroundColor(Color(toText: .five))
+                            
                     }
                     Spacer()
                 }
@@ -42,8 +47,8 @@ struct ContentView: View {
         .tabViewStyle(.page)
         .indexViewStyle(.page(backgroundDisplayMode: .interactive))
         .onAppear {
-            dotAppearance.currentPageIndicatorTintColor = .blue
-            dotAppearance.pageIndicatorTintColor = .green
+            dotAppearance.currentPageIndicatorTintColor = .white
+            dotAppearance.pageIndicatorTintColor = .black
         }
     }
     
