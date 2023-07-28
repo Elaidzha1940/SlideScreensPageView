@@ -32,8 +32,14 @@ struct ContentView: View {
                             Spacer()
                             
                             if page == pages.last {
-                                Button("Button", action: goToZero)
-                                    .buttonStyle(.bordered)
+                                Button("Get Started", action: goToZero)
+                                    .bold()
+                                    .font(.title3)
+                                    .frame(width: 300, height: 60)
+                                    .foregroundColor(Color(toElement: .six))
+                                    .background(Color(toElement: .one))
+                                    .cornerRadius(10)
+
                             } else {
                                 Button("Next", action: incrementPage)
                                     .bold()
