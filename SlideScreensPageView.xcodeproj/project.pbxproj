@@ -42,6 +42,7 @@
 		E4FD98F22A72DED5009165E8 /* CustomPageV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPageV.swift; sourceTree = "<group>"; };
 		E4FD98F62A742766009165E8 /* Modak */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Modak; sourceTree = "<group>"; };
 		E4FD98F82A74276E009165E8 /* Fonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fonts.swift; sourceTree = "<group>"; };
+		E4FD98FA2A742803009165E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +75,7 @@
 		E4FD98C82A72D742009165E8 /* SlideScreensPageView */ = {
 			isa = PBXGroup;
 			children = (
+				E4FD98FA2A742803009165E8 /* Info.plist */,
 				E4FD98DA2A72DA2A009165E8 /* Auxiliary */,
 				E4FD98E02A72DAFA009165E8 /* Extensions */,
 				E4FD98E72A72DBAB009165E8 /* Resources */,
@@ -377,6 +379,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SlideScreensPageView/Info.plist;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -415,6 +418,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SlideScreensPageView/Info.plist;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;

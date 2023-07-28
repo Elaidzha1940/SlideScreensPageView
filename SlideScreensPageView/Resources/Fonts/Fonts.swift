@@ -1,20 +1,18 @@
+//  /*
 //
-//  Fonts.swift
-//  SlideScreensPageView
+//  Project: SlideScreensPageView
+//  File: Fonts.swift
+//  Created by: Elaidzha Shchukin
+//  Date: 28.07.2023
 //
-//  Created by Elaidzha Shchukin on 28.07.2023.
+//  S
 //
+//  */
 
 import SwiftUI
 
-struct Fonts: View {
-    var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
-    }
-}
-
-struct Fonts_Previews: PreviewProvider {
-    static var previews: some View {
-        Fonts()
+struct Fonts {
+    struct Modak {
+        static let regular = "Modak-Regular"
     }
 }
