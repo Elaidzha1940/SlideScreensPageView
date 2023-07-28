@@ -17,28 +17,32 @@ struct CustomPageV: View {
     
     var body: some View {
         
-        VStack(spacing: 20) {
-            
-            Text("Listenoryx")
-                .font(.title3)
-                .bold()
-                .foregroundColor(Color(toText: .five))
-            
-            Image("\(page.ImageUrl)")
-                .resizable()
-                .scaledToFit()
-                .padding()
-                .cornerRadius(30)
-                .foregroundColor(Color(toElement: .six))
-
-            
-            Text(page.name)
-                .font(.title)
-            
-            Text(page.description)
-                .font(.subheadline)
-                .frame(width: 300)
+        VStack {
+            ZStack {
+                Color(toElement: .six)
+                VStack(spacing: 20) {
+                    
+                    Text("Listenoryx")
+                        .font(.title3)
+                        .bold()
+                        .foregroundColor(Color(toText: .five))
+                    
+                    Image("\(page.ImageUrl)")
+                        .resizable()
+                        .scaledToFit()
+                        .cornerRadius(30)
+                        .padding()
+                    
+                    Text(page.name)
+                        .font(.title)
+                    
+                    Text(page.description)
+                        .font(.subheadline)
+                        .frame(width: 300)
+                }
+            }
         }
+        .ignoresSafeArea()
     }
 }
 

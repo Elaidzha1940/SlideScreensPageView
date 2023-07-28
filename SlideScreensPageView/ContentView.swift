@@ -19,37 +19,42 @@ struct ContentView: View {
     
     var body: some View {
         
-        TabView(selection: $pageIndex) {
-            
-            Text("sss")
-            ForEach(pages) { page in
-                VStack {
+        VStack {
+            ZStack {
+                Color(toElement: .six)
+                TabView(selection: $pageIndex) {
                     
-                    Spacer()
-                    CustomPageV(page: page)
-                    Spacer()
-                    
-                    if page == pages.last {
-                        Button("Button", action: goToZero)
-                            .buttonStyle(.bordered)
-                    } else {
-                        Button("Next", action: incrementPage)
-                            .bold()
-                            .foregroundColor(Color(toText: .five))
+                    ForEach(pages) { page in
+                        VStack {
                             
+                            Spacer()
+                            CustomPageV(page: page)
+                            Spacer()
+                            
+                            if page == pages.last {
+                                Button("Button", action: goToZero)
+                                    .buttonStyle(.bordered)
+                            } else {
+                                Button("Next", action: incrementPage)
+                                    .bold()
+                                    .foregroundColor(Color(toText: .five))
+                                
+                            }
+                            Spacer()
+                        }
+                        .tag(page.tag)
                     }
-                    Spacer()
                 }
-                .tag(page.tag)
+                .animation(.easeInOut, value: pageIndex)
+                .tabViewStyle(.page)
+                .indexViewStyle(.page(backgroundDisplayMode: .interactive))
+                .onAppear {
+                    dotAppearance.currentPageIndicatorTintColor = .white
+                    dotAppearance.pageIndicatorTintColor = .black
+                }
             }
         }
-        .animation(.easeInOut, value: pageIndex)
-        .tabViewStyle(.page)
-        .indexViewStyle(.page(backgroundDisplayMode: .interactive))
-        .onAppear {
-            dotAppearance.currentPageIndicatorTintColor = .white
-            dotAppearance.pageIndicatorTintColor = .black
-        }
+        .ignoresSafeArea()
     }
     
     func incrementPage() {
