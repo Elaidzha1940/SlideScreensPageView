@@ -33,8 +33,8 @@ struct ContentView: View {
                             
                             if page == pages.last {
                                 Button("Get Started", action: goToZero)
-                                    .bold()
-                                    .font(.title3)
+                                    //.bold()
+                                    //.font(.custom(Fonts.RobotoMono.bold, size: 20))
                                     .frame(width: 300, height: 60)
                                     .foregroundColor(Color(toElement: .six))
                                     .background(Color(toElement: .one))

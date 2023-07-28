@@ -20,10 +20,11 @@ struct CustomPageV: View {
         VStack {
             ZStack {
                 Color(toElement: .six)
-                VStack(spacing: 20) {
-                    
+                
+                VStack(spacing: 30) {
                     Text("Listenoryx")
-                        .font(.custom("Chango-Regular", size: 40))
+                        .font(.custom(Fonts.RobotoMono.bold, size: 30))
+                        .fontWeight(.thin)
                         .foregroundColor(Color(toText: .five))
                     
                     Image("\(page.ImageUrl)")
@@ -33,12 +34,13 @@ struct CustomPageV: View {
                         .padding()
                     
                     Text(page.name)
-                        .bold()
-                        .font(.title3)
+                        .font(.custom(Fonts.RobotoMono.bold, size: 30))
+                        //.bold()
+                        //.font(.title3)
                         .foregroundColor(Color(toText: .one))
                     
                     Text(page.description)
-                        .font(.subheadline)
+//                        .font(.custom(Fonts.Chango.regular, size: 30))
                         .frame(width: 300)
                         .multilineTextAlignment(.center)
                         .foregroundColor(Color(toText: .one))
