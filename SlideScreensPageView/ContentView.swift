@@ -33,7 +33,6 @@ struct ContentView: View {
                             
                             if page == pages.last {
                                 Button("Get Started", action: goToZero)
-                                    .font(.custom(Fonts.Lobster.regular, size: 25))
                                     .frame(width: 300, height: 60)
                                     .foregroundColor(Color(toElement: .six))
                                     .background(Color(toElement: .one))
@@ -41,7 +40,6 @@ struct ContentView: View {
 
                             } else {
                                 Button("Next", action: incrementPage)
-                                    .bold()
                                     .foregroundColor(Color(toText: .five))
                                 
                             }

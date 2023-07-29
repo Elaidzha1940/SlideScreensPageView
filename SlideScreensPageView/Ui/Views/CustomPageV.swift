@@ -23,8 +23,7 @@ struct CustomPageV: View {
                 
                 VStack(spacing: 30) {
                     Text("Listenoryx")
-                        .font(.custom(Fonts.Lobster.regular, size: 40))
-                        .bold()
+                        .font(.custom("Lobster.regular", size: 40))
                         .foregroundColor(Color(toText: .five))
                     
                     Image("\(page.ImageUrl)")
@@ -34,12 +33,12 @@ struct CustomPageV: View {
                         .padding()
                     
                     Text(page.name)
-                    .font(.custom(Fonts.Lobster.regular, size: 30))
+                        .font(.custom("Lobster.regular", size: 30))
                         .foregroundColor(Color(toText: .one))
                     
                     Text(page.description)
-                        .font(.custom(Fonts.Lobster.regular, size: 15))
-                        .frame(width: 300)
+                        .font(.custom("Lobster.regular", size: 17))
+                        .frame(width: 250)
                         .multilineTextAlignment(.center)
                         .foregroundColor(Color(toText: .one))
                 }
