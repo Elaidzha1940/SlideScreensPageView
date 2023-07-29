@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E4009FF42A743ADD00EC08BA /* Bona_Nova in Resources */ = {isa = PBXBuildFile; fileRef = E4009FF32A743ADD00EC08BA /* Bona_Nova */; };
+		E4009FF82A75705900EC08BA /* Lobster in Resources */ = {isa = PBXBuildFile; fileRef = E4009FF72A75705800EC08BA /* Lobster */; };
 		E4FD98CA2A72D742009165E8 /* SlideScreensPageViewApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4FD98C92A72D742009165E8 /* SlideScreensPageViewApp.swift */; };
 		E4FD98CC2A72D742009165E8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4FD98CB2A72D742009165E8 /* ContentView.swift */; };
 		E4FD98CE2A72D743009165E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4FD98CD2A72D743009165E8 /* Assets.xcassets */; };
@@ -24,7 +24,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		E4009FF32A743ADD00EC08BA /* Bona_Nova */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Bona_Nova; sourceTree = "<group>"; };
+		E4009FF72A75705800EC08BA /* Lobster */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Lobster; sourceTree = "<group>"; };
 		E4FD98C62A72D742009165E8 /* SlideScreensPageView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SlideScreensPageView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4FD98C92A72D742009165E8 /* SlideScreensPageViewApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideScreensPageViewApp.swift; sourceTree = "<group>"; };
 		E4FD98CB2A72D742009165E8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -142,8 +142,8 @@
 		E4FD98EF2A72DC3A009165E8 /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
-				E4009FF32A743ADD00EC08BA /* Bona_Nova */,
 				E4FD98F82A74276E009165E8 /* Fonts.swift */,
+				E4009FF72A75705800EC08BA /* Lobster */,
 			);
 			path = Fonts;
 			sourceTree = "<group>";
@@ -224,7 +224,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E4FD98EC2A72DBF4009165E8 /* Images.xcassets in Resources */,
-				E4009FF42A743ADD00EC08BA /* Bona_Nova in Resources */,
+				E4009FF82A75705900EC08BA /* Lobster in Resources */,
 				E4FD98EE2A72DC02009165E8 /* Colors.xcassets in Resources */,
 				E4FD98D22A72D743009165E8 /* Preview Assets.xcassets in Resources */,
 				E4FD98CE2A72D743009165E8 /* Assets.xcassets in Resources */,

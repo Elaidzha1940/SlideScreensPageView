@@ -23,7 +23,7 @@ struct CustomPageV: View {
                 
                 VStack(spacing: 30) {
                     Text("Listenoryx")
-                        .font(.custom(Fonts.BonaNova.bold, size: 30))
+                        .font(.custom(Fonts.Lobster.regular, size: 30))
                         .fontWeight(.thin)
                         .foregroundColor(Color(toText: .five))
                     
