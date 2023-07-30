@@ -1,9 +1,13 @@
+//  /*
 //
-//  AssetColor.swift
-//  SlideScreensPageView
+//  Project: SlideScreensPageView
+//  File: AssetColor.swift
+//  Created by: Elaidzha Shchukin
+//  Date: 27.07.2023
 //
-//  Created by Elaidzha Shchukin on 27.07.2023.
+//  S
 //
+//  */
 
 protocol AssetColor: RawRepresentable {}
 
