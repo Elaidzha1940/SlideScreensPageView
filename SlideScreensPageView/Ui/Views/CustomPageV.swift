@@ -37,8 +37,10 @@ struct CustomPageV: View {
                         .foregroundColor(Color(toText: .one))
                     
                     Text(page.description)
-                        .font(.system(size: 18, weight: .regular, design: .default))
-                        .frame(width: 250)
+                        .baselineOffset(3)
+                        .minimumScaleFactor(0.5)
+                        .font(.system(size: 17, weight: .regular, design: .default))
+                        .frame(width: 300)
                         .multilineTextAlignment(.center)
                         .foregroundColor(Color(toText: .one))
                 }
