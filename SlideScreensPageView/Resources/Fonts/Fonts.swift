@@ -5,7 +5,7 @@
 //  Created by: Elaidzha Shchukin
 //  Date: 28.07.2023
 //
-//  S
+//  Status: #In progress | #Decorated
 //
 //  */
 
